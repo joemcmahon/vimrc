@@ -56,6 +56,7 @@ function! CoffeeScriptFold()
 endfunction
 au FileType coffee call CoffeeScriptFold()
 
+<<<<<<< HEAD
 au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 
 
@@ -65,3 +66,9 @@ au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 if exists('$TMUX') 
     set term=screen-256color 
 endif
+=======
+""""""""""""""""
+" => Git section
+""""""""""""""""
+au FileType gitcommit set tw=72
+>>>>>>> bf19ff0... Set Git commit line length to 72
