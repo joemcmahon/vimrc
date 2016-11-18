@@ -1,5 +1,15 @@
 # The Ultimate vimrc
 
+## Note from Joe M.
+This is a clone of cridenour's .vimrc, tweaked slightly to my preferences:
+ - I prefer a light-colored background rather than a dark one
+ - I like my Git commits to auto-wrap at 72
+ - I changed the completion engine to YouCompleteMe as I prefer it.
+
+We now return you to cridenour's comments.
+
+----
+
 Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
 
 There are two versions:
