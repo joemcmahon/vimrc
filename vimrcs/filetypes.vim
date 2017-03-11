@@ -67,5 +67,9 @@ au FileType gitcommit set tw=72
 " => Shell section
 """"""""""""""""""""""""""""""
 if exists('$TMUX') 
-    set term=screen-256color 
+    if has('nvim')
+        set termguicolors
+    else
+        set term=screen-256color 
+    endif
 endif
