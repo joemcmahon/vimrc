@@ -9,6 +9,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'FriedSock/smeargle'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-addon-mw-utils'
 Plugin 'ack.vim'
