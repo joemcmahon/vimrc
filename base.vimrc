@@ -9,7 +9,6 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'FriedSock/smeargle'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-addon-mw-utils'
 Plugin 'ack.vim'
@@ -59,6 +58,7 @@ Plugin 'amix/vim-zenroom2'
 Plugin 'calincru/peaksea.vim'
 Plugin 'mkitt/tabline.vim'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'tpope/vim-unimpaired'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
