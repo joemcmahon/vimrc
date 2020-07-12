@@ -28,13 +28,8 @@ set guioptions-=l
 set guioptions-=L
 
 " Colorscheme
-if has("gui_running")
     set background=dark
     colorscheme desert
-else
-    colorscheme mayansmoke
-    let g:colors_name="mayansmoke"
-endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs

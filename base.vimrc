@@ -30,7 +30,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'morhetz/gruvbox'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'maximbaz/lightline-ale'
-Plugin 'fatih/vim-go'
+Plugin 'govim/govim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'vim-scripts/mayansmoke'
@@ -59,6 +59,7 @@ Plugin 'calincru/peaksea.vim'
 Plugin 'mkitt/tabline.vim'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'ciaranm/securemodelines'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
