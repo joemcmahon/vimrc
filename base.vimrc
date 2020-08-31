@@ -60,6 +60,7 @@ Plugin 'mkitt/tabline.vim'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'ciaranm/securemodelines'
+Plugin 'dnmfarrell/Hash-Tidy'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
