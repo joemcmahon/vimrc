@@ -9,7 +9,6 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-addon-mw-utils'
 Plugin 'ack.vim'
 Plugin 'sophacles/vim-bundle-mako'
@@ -30,7 +29,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'morhetz/gruvbox'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'maximbaz/lightline-ale'
-Plugin 'govim/govim'
 Plugin 'itchyny/lightline.vim'
 Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'vim-scripts/mayansmoke'
@@ -61,6 +59,8 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'ciaranm/securemodelines'
 Plugin 'dnmfarrell/Hash-Tidy'
+Plugin 'neoclide/coc.nvim'
+Plugin 'fatih/vim-go'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

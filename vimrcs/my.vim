@@ -2,6 +2,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 inoremap jj <ESC>
+inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 autocmd BufRead,BufWrite * if ! &bin | silent! %s/\s\+$//ge | endi
 set backspace=indent,eol,start
@@ -20,3 +21,6 @@ if has("patch-8.1.1904")
   set completeopt+=popup
   set completepopup=align:menu,border:off,highlight:Pmenu
 endif
+let g:vim_markdown_folding_disabled = 1
+set noexrc
+set secure
